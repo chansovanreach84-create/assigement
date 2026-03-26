@@ -1,4 +1,6 @@
-my_number = 7
+
+import random
+my_number = random.randint(1,100)
 while True :
     guess = int(input("guess the number Start From(1-100): "))
     if guess == my_number:
@@ -10,4 +12,3 @@ while True :
         print("Too high! Try again.")
     else:
         print("Invalid input, Please Guess a number between 1 to 100 .")
-        
