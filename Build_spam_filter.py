@@ -7,7 +7,7 @@ This is not a scam, it is 100% free. Act now to get your prize!
 
 email_2 = """
 Hey team, just a quick reminder about the meeting tomorrow at 10 AM.
-Please bring your project updates. Thanks!
+Please bring your project tes. Thanks!
 """
 
 email_3 = """
