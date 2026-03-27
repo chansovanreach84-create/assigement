@@ -16,11 +16,12 @@ I owe you money for lunch, so let me buy you a pizza!
 """
 
 emails = [email_1, email_2, email_3]
-
-for i, email in enumerate(emails, 1):
-    
+i = 1
+for email in emails:
     email = email.lower()
-    print(f"\n Processing Email_{i}.....")
+    i += 1
+    
+    print(f" Processing Email_{i}.....")
     
     for ch in ".,!?%:":
         email = email.replace(ch, "")
@@ -38,7 +39,6 @@ for i, email in enumerate(emails, 1):
         spam_score = (trigger_count / total_words) * 100
     else:
         spam_score = 0
-    
     print(f"Total words: {total_words}")
     print(f"Trigger words: {trigger_count}")
     print(f"Spam Score: {spam_score:.2f}%")
