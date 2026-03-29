@@ -34,6 +34,7 @@ for email in emails:
     for word in words:
         if word in trigger_words:
             trigger_count += 1
+            pass
     
     if total_words > 0:
         spam_score = (trigger_count / total_words) * 100
